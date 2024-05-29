@@ -17,6 +17,7 @@ jobs:
         run: |
           chmod +x curl.sh
           ./curl.sh
+          ls
       - name: Upload using Actions as Workflow Artifact
         uses: actions/upload-artifact@v4
         with:
